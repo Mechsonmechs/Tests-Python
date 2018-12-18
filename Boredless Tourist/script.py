@@ -9,25 +9,16 @@ def get_destination_index(destination):
   destination_index = destinations.index(destination)
   return destination_index
 
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-print(get_destination_index("Los Angeles, USA"))
-
+#print(get_destination_index("Los Angeles, USA"))
 
 def get_traveller_index(traveler):
   traveler_destination = traveler[1]
   traveler_destination_index = get_destination_index(traveler_destination)
   return traveler_destination_index
 
-print(get_traveller_index(test_traveller))
+#print(get_traveller_index(test_traveller))
+
+attractions = []
 
 
 ## Wait for input allow read  ##
